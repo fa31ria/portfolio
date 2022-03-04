@@ -1,0 +1,821 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+
+
+
+    
+}
+body{
+    font-family: "Roboto";
+}
+.header{
+    background:#302850 ;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1100;
+}
+
+.header .container .row .col-xl-4 .logo img{
+    float:left;
+    margin-top:20px;
+    margin-left: 80px;
+}
+.header .container .row .col-xl-4 .logo h3{
+ 
+        font-size: 30px;
+    
+      
+        line-height: 1.2;
+        text-align: center;
+        color:#12d1cf;
+        margin-left: 15px;
+        margin-top: 20px;
+        display: inline-block;
+
+        
+    
+      
+}
+.header .container .row .col-xl-4 .logo h3 span{
+    color:#49a4cc;
+}
+
+    
+.header .container .row .col-xl-8 .navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    margin-top:20px ;
+   
+}
+.header .container .row .col-xl-8 .navbar ul li{
+    margin-left: 30px;
+}
+.header .container .row .col-xl-8 .navbar ul li a{
+   
+        font-size: 13px;
+     
+        color:#f8f8f9;
+        line-height: 1.2;
+        text-align: right;
+        text-decoration: none;
+      
+      
+}
+.header .container .row .col-xl-8 .navbar ul li a.active,
+.header .container .row .col-xl-8 .navbar ul li a:hover{
+    color:#12d1cf;
+}
+.header .container .row .col-xl-8 .fa-bars{
+    font-size:30px;
+    color:#12d1cf;
+    display: none;
+}
+.home{
+    position: relative;
+   width:1300px;
+}
+
+
+.home .slider-container .slider-1{
+    background-image:url("bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0px;
+  
+  
+ 
+ 
+  
+}
+.home .slider-container .slider-2{
+    background-image:url("sea.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0px;
+   
+    
+  
+    
+
+}
+.home .slider-container .slider-3{
+    background-image:url("post-4-mid.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0px;
+  
+
+}
+.home .slider-container .slider-4{
+    background-image:url("post-5-mid.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding:100px 0px ;
+  
+
+}
+.home h3{
+  
+        font-size: 32px;
+      
+        color: #12d1cf;
+        line-height: 1.2;
+        text-align: center;
+      
+       
+      
+}
+.home p{
+  
+        font-size: 14px;
+        font-family: "Myriad Pro";
+        color: orangered;
+        line-height: 1.714;
+        text-align: center;
+       margin-top:20px ;
+      
+}
+.home button{
+        height:42px;
+        width:135px;
+        background: none;
+        outline:none;
+       border: 2px solid #12d1cf;
+       margin-left: 45%;
+       margin-top: 20px;
+    
+ 
+        font-size: 16px;
+      
+        color: rgb(0, 224, 208);
+        line-height: 1.2;
+        text-align: center;
+     
+      
+}
+.home .owl-carousel .owl-nav button.owl-prev{
+    position:absolute;
+    top:35%;
+    left:5%;
+    height:50px;
+    width:50px;
+    background: #302850;
+    color:#f8f8f9;
+    font-size: 30px;
+  
+}
+.home .owl-carousel .owl-nav button.owl-next{
+    position:absolute;
+    top:35%;
+    right:5%;
+    height:50px;
+    width:50px;
+    background: #302850;
+    color:#f8f8f9;
+    font-size: 30px;
+
+}
+.about .container .row .col-xl-6 {
+  padding:100px 0px;
+}
+.about .container .row .col-xl-6 .content h3{
+   
+        font-size: 22px;
+     
+        color: rgb(65, 61, 75);
+        font-weight: bold;
+        line-height: 1.2;
+        text-align: left;
+   
+      
+}
+.about .container .row .col-xl-6 .content p{
+   
+        font-size: 14px;
+    
+        color: rgba(65, 61, 75, 0.749);
+        line-height: 1.571;
+       
+       
+        margin-top: 15px;
+}
+.about .container .row .col-xl-6 .content button{
+    height:42px;
+    width:135px;
+    background: none;
+    outline:none;
+   border: 2px solid #12d1cf;
+   
+
+
+    font-size: 16px;
+  
+    color: rgb(0, 224, 208);
+    line-height: 1.2;
+    text-align:center;
+    margin-top: 20px;
+ 
+  
+
+}
+.background{
+    width: 1400px;
+}
+
+.expertise{
+    background: #ffffff;
+}
+.expertise .container .row .col-xl-12 h4{
+   
+        font-size: 22px;
+     
+        color: rgb(65, 61, 75);
+        font-weight: bold;
+        line-height: 1.2;
+        text-align: center;
+     margin-top: 30px;
+      
+}
+.expertise .container .row .col-xl-12 p{
+ 
+        font-size: 14px;
+      
+        color: rgba(47, 45, 53, 0.749);
+        line-height: 1.2;
+        text-align: center;
+        
+      
+}
+.expertise .container .row .col-xl-4{
+    margin-top: 50px;
+}
+.expertise .container .row .col-xl-4 {
+    border-bottom: 1px solid grey;
+    border-right: 1px solid grey;
+  
+}
+
+
+
+.expertise .container .row .col-xl-4 .box img{
+  margin-left: 50%;
+  max-width: 100%;
+  height:auto;
+}
+.expertise .container .row .col-xl-4 .box h4{
+    
+        font-size: 14px;
+        font-family: "Roboto";
+        color: #000000;
+        line-height: 1.2;
+        text-align: center;
+        margin-top: 20px;
+        font-weight: bold;
+     
+      
+       
+      
+}
+.expertise .container .row .col-xl-4 .box p{
+   
+        font-size: 14px;
+        font-family: "Roboto";
+        color: rgba(51, 51, 51, 0.749);
+        line-height: 1.571;
+        text-align: center;
+        margin-top: 8px;
+      
+      
+
+}
+.teams{
+    background-image:url("bg3.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 40px;
+    width:1400px;
+}
+.teams .container .row .col-xl-3{
+    margin-top: 50px;
+
+}
+.teams .container .row .col-xl-3 .box{
+    width:250px;
+    height:310px;
+    border:1px solid #f8f8f9;
+   
+
+}
+.teams .container .row .col-xl-3 .box img{
+    width:250px;
+    height:250px;
+
+}
+.teams .container .row .col-xl-3 .box h4{
+  
+        font-size: 14px;
+        font-family: "Roboto";
+        color: rgb(255, 255, 255);
+        line-height: 1.2;
+        text-align: center;
+        margin-top:6px;
+      
+      
+}
+.teams .container .row .col-xl-3 .box h2{
+ 
+        font-size: 13px;
+        font-family: "Roboto";
+        color: rgba(250, 250, 250, 0.702);
+        line-height: 1.2;
+        text-align: center;
+      
+      
+}
+.teams p{
+  
+        font-size: 14px;
+       
+        color: rgb(243, 243, 243);
+        line-height: 1.2;
+        text-align: center;
+        margin-top: 30px;
+       
+}
+.teams button{
+    height:42px;
+    width:152px;
+    outline:none;
+    border:1px solid #12d1cf;
+    background: none;
+  
+        font-size: 16px;
+       
+        color: rgb(0, 224, 208);
+        line-height: 1.2;
+        text-align: center;
+     margin-left: 45%;
+      
+
+}
+.works{
+    background: #ffffff;
+    padding:50px 0px;
+   
+} 
+.works .container .row .col-xl-6 h4{
+ 
+        font-size: 22px;
+      
+        color: rgb(65, 61, 75);
+        font-weight: bold;
+        line-height: 1.2;
+        text-align: left;
+        
+      
+}
+.works .container .row .col-xl-6 .content p{
+ 
+        font-size: 14px;
+        font-family: "Roboto";
+        color: rgb(65, 61, 75);
+        line-height: 1.2;
+        text-align: right;
+        float: left;
+       
+      
+}
+.works .container .row .col-xl-6 .content .fa-angle-right{
+    display: inline-block;
+    margin-left: 8px;
+    color:#12d1cf;
+}
+.works .container-fluid  {
+   margin-top: 30px;
+  
+}
+.works .container-fluid .row .col-xl-12 .image img{
+    height:130px;
+    width: 200px;
+    object-fit: cover;
+    margin:0px 0px ;
+} 
+
+  
+
+.works .container .row .col-xl-12 button{
+    height:42px;
+    width:152px;
+    outline:none;
+    border:1px solid #12d1cf;
+    background: none;
+  
+        font-size: 16px;
+       
+        color: rgb(0, 224, 208);
+        line-height: 1.2;
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 45%;
+
+}
+
+.people .container-fluid{
+    background-image:url("bg4.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 30px;
+    width: 1400px;
+   
+
+}
+
+
+  
+
+.people .container-fluid .row .col-xl-12 p{
+  
+        font-size: 16px;
+      
+        color: rgba(255, 255, 255, 0.851);
+        line-height: 1.625;
+        text-align: center;
+      margin-top: 30px;
+      
+}
+.people .container-fluid .row .col-xl-12 h3{
+   
+        font-size: 14px;
+        font-family: "Roboto";
+        color: rgb(255, 255, 255);
+        line-height: 1.571;
+        text-align: center;
+        margin-top: 8px;
+     
+      
+}
+.people .container-fluid .row .col-xl-12 h5{
+  
+        font-size: 10px;
+        font-family: "Roboto";
+        color: rgba(255, 255, 255, 0.702);
+        line-height: 1.692;
+        text-align: center;
+     
+
+}
+.people .container-fluid .row .col-xl-12 .image-container .image-1{
+    margin-left: 45%;
+    margin-top: 50px;
+}
+.contact{
+    background: #ffffff;
+    padding: 70px 0px;
+}
+.contact .container .row .col-xl-6 h2{
+  
+        font-size: 22px;
+      
+        color: rgb(65, 61, 75);
+        font-weight: bold;
+        line-height: 1.2;
+        text-align: left;
+       
+       
+}
+.contact .container .row .col-xl-6 .form-container{
+    margin-top: 20px;
+}
+.contact .container .row .col-xl-6 .form-container input{
+    width: 460px;
+    height: 42px;
+    margin-bottom: 20px;
+    outline:none;
+    border:1px solid grey;
+    padding-left: 10px ;
+}
+
+.contact .container .row .col-xl-6 .form-container input::placeholder{
+   
+        font-size: 14px;
+        font-family: "Roboto";
+        color: rgba(65, 61, 75, 0.502);
+        line-height: 1.2;
+      font-weight: 300;
+      padding-left: 20px;
+      
+}
+.contact .container .row .col-xl-6 button{
+    height:42px;
+    width:152px;
+    outline:none;
+    border:1px solid #12d1cf;
+    background: none;
+  
+        font-size: 16px;
+       
+        color: rgb(0, 224, 208);
+        line-height: 1.2;
+        text-align: center;
+     
+
+}
+.contact .container .row .col-xl-6 h3{
+ 
+        font-size: 22px;
+      
+        color: rgb(65, 61, 75);
+        font-weight: bold;
+        line-height: 1.2;
+        text-align: left;
+       
+      
+}
+.contact .container .row .col-xl-6 .container .row{
+    margin-top: 25px;
+}
+.footer {
+    background-image:url("bg5.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 30px;
+    width: 1400px;
+
+}
+.footer .container .row .col-xl-4 .logo{
+    margin-top: 20px;
+}
+.footer .container .row .col-xl-4 .logo img{
+    float:left;
+     
+}
+.footer .container .row .col-xl-4 .logo h2{
+    display: inline-block;
+  
+        font-size: 30px;
+        font-family: "Roboto";
+        color: rgb(255, 255, 255);
+        line-height: 1.2;
+        text-align: center;
+        margin-left: 5px;
+      
+      
+}
+.footer .container .row .col-xl-4 p{
+   
+        font-size: 14px;
+      
+        color: rgb(255, 255, 255);
+        line-height: 1.857;
+        text-align: left;
+      margin-top: 20px;
+      
+}
+.footer .container .row .col-xl-4 ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer .container .row .col-xl-4 ul li{
+    list-style:none;
+    margin-left: 3px;
+    
+        font-size: 14px;
+        font-family: "Roboto";
+        color: rgb(255, 255, 255);
+        line-height: 1.857;
+      margin-top: 20px;
+      
+}
+.footer .container .row .col-xl-4 h3{
+  
+        font-size: 25px;
+        font-family: "Roboto";
+        color: rgb(255, 255, 255);
+        line-height: 1.733;
+        margin-top: 20px;
+     
+      
+}
+.footer .container .row .col-xl-4 .box{
+    margin-top: 30px;
+}
+
+.footer .container .row .col-xl-4 .box i{
+    float:left;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+  
+    
+     
+      
+}
+.footer .container .row .col-xl-4 .box h5{
+    display: inline-block;
+    margin-left: 8px;
+    color: rgb(255, 255, 255);
+  
+    
+}
+.footer .container .row .col-xl-4 h2{
+   
+        font-size: 25px;
+        font-family: "Roboto";
+        color: rgb(255, 255, 255);
+        margin-top: 20px;
+       
+      
+}
+.footer .container .row .col-xl-4  form .form-container{
+   
+    width:220px;
+    height: 30px;
+    border: 1px solid #ffffff;
+    margin-top: 30px;
+   
+    
+}
+.footer .container .row .col-xl-4  form .form-container input{
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    outline:none;
+    background: none;
+    border-color: white;
+}
+.footer .container .row .col-xl-4  form .form-container input::placeholder{
+   
+    font-size:20px;
+    padding:5px 5px;
+    color: rgb(255, 255, 255);
+
+}
+.footer .container .row .col-xl-4 .social-icons{
+    margin-top: 20px;
+}
+.footer .container .row .col-xl-4 .social-icons i{
+    height: 40px;
+    width:40px;
+    line-height: 40px;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    text-align: center;
+    margin-left: 6px;
+    font-size:20px;
+    color:rgb(255, 255, 255);
+}
+
+.footer .container .row .col-xl-4 .social-icons i:hover{
+    color:orangered;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  
+   
+  
+ 
+    
+@media(max-width:1250px){
+    .works .container-fluid .row .col-xl-12 .image img{
+        height:100px;
+        width: 175px;
+        object-fit: cover;
+        margin:0px 0px ;
+    } 
+    .about .container-fluid{
+        width:100%;
+    }
+
+}
+@media(max-width:1090px){
+    .works .container-fluid .row .col-xl-12 .image img{
+        height:90px;
+        width: 150px;
+        object-fit: cover;
+        margin:0px 0px ;
+    } 
+  
+}
+
+
+
+@media(max-width:992px){
+    .header .container .row .col-xl-8 .fa-bars{
+        display: block;
+        margin-top: 20px;
+        margin-left: 55px;
+    }
+    .header .container .row .col-xl-8 .navbar ul {
+        position: fixed;
+        top:-100rem;
+        left:20%;
+        background:#12d1cf;
+        display: flex;
+        flex-flow: column;
+        width:55%;
+        height:60%;
+
+    }
+    .header .container .row .col-xl-8 .navbar ul.active{
+        top:15%;
+        transition: all .4s ease;
+
+    }
+    .header .container .row .col-xl-8 .navbar ul li a{
+        display: block;
+        font-size:18px;
+    }
+    .fa-times{
+        transform: rotate(180deg);
+    }
+    .works .container-fluid .row .col-xl-12 .image img{
+        height:80px;
+        width: 120px;
+        object-fit: cover;
+      
+    } 
+    .about .container-fluid{
+        width:1100px;
+    }
+    
+
+
+}
+@media(max-width:768px){
+    .works .container-fluid .row .col-xl-12 .image img{
+        height:50px;
+        width: 100px;
+        object-fit: cover;
+      
+    } 
+    
+
+}
+
+   
+
+
+
+
+@media(max-width:575px){
+    .about .container .row .col-xl-6 .image{
+        margin-left: 30%;
+    }
+
+    .about .container .row .col-xl-6 .content h3{
+        text-align: center;
+    }
+    .about .container .row .col-xl-6 .content p{
+       margin: 0px 15px;
+    }
+    .about .container .row .col-xl-6 .content button{
+        margin-left: 35%;
+    }
+    .works .container-fluid .row .col-xl-12 .image img{
+        height:30px;
+        width: 80px;
+        object-fit: cover;
+      
+    } 
+    
+
+}
+
+  
+
+
+
+
+
